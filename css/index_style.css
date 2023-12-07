@@ -1,0 +1,476 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+#main_con {width:100%; min-width: 1100px;  height:130px; margin:0 auto;  }
+#main_con:after {display: block; clear: both; content: ""} 
+.mainconwrap {width:1100px; margin: 0 auto; min-width:1310px; margin-top:110px;}
+
+.mainwrap_side_lt {width:100px; height:100px; float:left;}
+.mainwrap_side_rt {width:100px; height:100px; float:right;}
+
+
+.mainwrap_left {float:left; 
+				margin-left:8px; 
+				width:800px;
+				height:140px; 
+				background:url(../images/main_right_bg.jpg) no-repeat center;
+			    background-size:cover;
+				border:1px solid #ccc; box-sizing:border-box;  }
+.mainwrap_left:after {display: block; clear: both; content: ""} 				
+				
+				
+.mainwrap_right {width:280px;margin-left:10px;  height:140px;float:left; 
+				border:1px solid #ccc; box-sizing:border-box;
+				position:relative; }
+.mainwrap_right:after {display: block; clear: both; content: ""} 
+
+
+
+
+
+
+
+.form-group {width:100%;margin:5% 5%;}
+.form-control {width:52%; height:40px;box-sizing:border-box; border:0.5px solid #ccc;  }
+.form-control:nth-child(2) {border-top:none;}
+
+.loginbtn {width:38%; height:79px; background:#57008d; 
+		  position:absolute;top:15px;right:5%;
+		  text-align:center;
+		  color:#fff;
+		  line-height:89px;box-sizing:border-box; }
+
+.login_btn {width:100%; height:90px; background:#57008d; 
+		  color:#fff;border:none;
+		  line-height:89px;box-sizing:border-box;}
+
+		  
+.loginbtn:hover {background:#490375;transition:all 0.1s; }		  
+		  	  
+.forgot {margin-left:5%; }
+.forgot > a {font-size:0.95em; color:#000;padding-top:0.1em; }
+.forgot > a:hover {color:#57008d; }
+.forgot > .joinbtn {color:#57008d; font-weight:bold; font-size:1em;padding-left:0.5em; }
+
+
+
+
+
+/*메인 검색영역 */
+#main_search {width:100%; min-width: 1100px; height:540px; background:#f5f5f5;margin-top:20px;  }
+#main_search:after {display: block; clear: both; content: ""} 
+.searchwrap {width:1100px; min-width: 1100px;margin:0 auto; position:relative;}
+.searchwrap:after {display: block; clear: both; content: ""}
+
+.searchwrap > .searchbox {position:absolute; 
+						  width:100%; height:520px; 
+						  border:2px solid #57008d;
+						  background:#fff; 
+						  box-sizing:border-box; 
+						  margin-top:10px; 
+						  overflow:hidden;}
+
+
+						  
+.searchwrap_lt {width:74%;height:520px;
+                float:left; background:#fff;box-sizing:border-box;position:relative;   }
+
+.searchwrap_rt {width:26%;height:540px;float:right; 
+			    background:url(../images/search_banner.jpg) no-repeat center; 
+				background-size:cover; 
+				box-sizing:border-box;}
+
+				
+/* 통합 검색 박스*/
+.scs_01 {position:absolute;top:65px; left:20px;  }
+.searchwrap_title1 {position:absolute;top:20px; left:20px; }
+.searchwrap_title1 > h3 {color:#57008d;font-size:1.1em;}
+
+
+/* 전체 최근등록 대수*/
+.searchwrap_side {position:absolute;top:15px; right:20px;}
+.tab_st01 {margin-right:40px;color:#57008d;display:block;font-weight:bold;  }
+.tab_st02 {text-align:right; }
+.tab_st02 > span {color:#57008d;font-size:1.0em;font-weight:bold;padding-right:5px;   }
+
+
+/* 전체검색*/
+.scs_line {position:relative;}
+.scs_line input {width: 760px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.scs_line_btn {position:absolute; top:0; right:0; display:inline-block; width:150px; height:40px; background:#57008d; 
+			   line-height:40px; color:#fff; text-align:center; }
+.scs_line_btn:hover {background:#490375;transition:all 0.2s; }			   
+.scs_line_btn > a {color:#fff; text-align:center; }
+
+
+/* 부품별 검색박스 텍스트*/
+.searchwrap_title2 {position:absolute;top:120px; left:20px; }
+.searchwrap_title2 > h3 {color:#57008d;font-size:1.1em;}
+
+
+/* 부품별 검색박스 박스*/
+
+
+.scs_02 {position:absolute;top:160px; left:20px;  }
+
+/*cpu*/
+.scs_02_wrap {position:relative; }
+.scs_line2_title_cpu {position:absolute;top:10px; left:15px;display:block; color:#57008d;font-weight:bold;font-size:0.9em; }
+.scs_line2_cpu {position:absolute; top:0px; left:70px; }
+.scs_line2_cpu input {width:200px; left:50px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.checks_cpu {position:absolute; top:0px; left:278px;
+		 display:inline-block;
+		 width:90px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em;  }
+
+
+/*메모리*/
+.scs_02_wrap2 {position:relative; }
+.scs_line2_title_memory {position:absolute;top:60px; left:5px;display:block; color:#57008d;font-weight:bold;font-size:0.9em; }
+.scs_line2_memory {position:absolute; top:50px; left:70px; }
+.scs_line2_memory input {width:200px; left:90px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.checks_memory {position:absolute; top:40px;left:278px;
+		 display:inline-block;
+		 width:90px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em;  }
+
+.scs_line2_memory_total {position:absolute; top:50px; left:210px; border: 0.01em solid #ccc; width:70px; height:40px; display:inline-block;}
+
+
+/*가격*/
+.scs_02_wrap3 {position:relative; }
+.scs_line2_title_price {position:absolute;top:100px;width:50px; left:5px;display:block; color:#57008d;font-weight:bold;font-size:0.9em; }
+
+.scs_line2_price {position:absolute; top:100px; left:70px; }
+.scs_line2_price .input_price1 {width:240px;left:90px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.ipunt_price_txt {position:absolute; top:10px; left:260px;display:inline-block; width:100px; }
+
+.scs_line2_price2 {position:absolute; top:100px; left:360px; }
+.scs_line2_price2 .input_price1 {width:240px;left:90px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+
+
+.checks_memory {position:absolute; top:50px;left:278px;
+		 display:inline-block;
+		 width:90px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em;  }
+
+
+/*그래픽*/
+.scs_02_wrap4 {position:relative; }
+.scs_line2_title_graphic {position:absolute;top:10px;left:385px;display:block; color:#57008d;font-weight:bold;font-size:0.9em; }
+.scs_line2_graphic {position:absolute; top:0px;left:453px;}
+.scs_line2_graphic input {width:160px; left:50px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.checks_graphic {position:absolute; top:0px; left:680px;
+		 display:inline-block;
+		 width:90px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em;  }
+
+.checks_graphic2 {position:absolute; top:0px; left:621px;
+		 display:inline-block;
+		 width:60px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em; }
+
+/*메인보드*/
+.scs_02_wrap5 {position:relative; }
+.scs_line2_title_mboard {position:absolute;top:60px;left:385px;width:80px;display:block; color:#57008d;font-weight:bold;font-size:0.85em; }
+.scs_line2_mboard {position:absolute; top:50px;left:453px;}
+.scs_line2_mboard input {width:309px; left:50px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.checks_mboard {position:absolute; top:0px; left:680px;
+		 display:inline-block;
+		 width:90px;height:40px; 
+		 background:#f5f5f5;
+		 border: 0.01em solid #ccc;
+		 line-height:40px;
+		 text-align:center;
+		 color:#000;
+		 font-size:0.9em;  }
+
+/* 가격 검색바 */
+.scs_02_wrap6 {position:relative; }
+.scs_line2_allsearch {position:absolute;top:100px;left:770px;}
+
+.scs_line_allsearch {position:absolute; top:0; right:0; 
+					display:inline-block; width:150px; 
+					height:40px; background:#57008d; 
+				    border:none; 
+			       line-height:40px; color:#fff; text-align:center; }
+.scs_line_allsearch:hover {background:#490375;transition:all 0.2s; }			   
+.scs_line_allsearch > a {color:#fff;
+					text-align:center;
+					display:block; 
+					line-height:38px;
+					font-size:1.12em;  }
+
+
+
+/* 3D벤치마크 검색 박스*/
+.scs_03 {position:absolute;top:360px; left:20px;  }
+.scs_line3 {position:relative;}
+
+.scs_line3_title_price {position:absolute;top:10px;width:50px; left:15px;display:block; color:#57008d;font-weight:bold;font-size:0.9em; }
+
+.scs_line3_price {position:absolute; top:0px; left:70px; }
+.scs_line3_price .input_price1 {width:200px;left:90px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.ipunt_benchmark_txt {position:absolute; top:10px; left:220px;display:inline-block; width:100px; }
+
+.scs_line3_price2 {position:absolute; top:0px; left:330px; }
+.scs_line3_price2 .input_price1 {width:200px;left:90px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+
+.scs_line_btn3_benckmark {position:absolute; top:0; left:620px; 
+					display:inline-block; width:150px; 
+					height:40px; background:#57008d; 
+				    border:none; 
+			       line-height:40px; color:#fff; text-align:center; }
+.scs_line_btn3_benckmark:hover {background:#490375;transition:all 0.2s; }			   
+.scs_line_btn3_benckmark > a {color:#fff;
+					text-align:center;
+					display:block; 
+					line-height:38px;
+					font-size:1.12em;  }
+
+
+
+/*.scs_line3 input {width: 760px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.scs_line_btn3 {position:absolute; top:0; right:0; display:inline-block; width:150px; height:40px; background:#57008d; 
+			   line-height:40px; color:#fff; text-align:center; }
+.scs_line_btn3:hover {background:#490375;transition:all 0.2s; }			   
+.scs_line_btn3 > a {color:#fff; text-align:center; }
+
+.scs_line_innertxt {position:absolute; top:0px; right:150px; 
+					display:inline-block; width:80px; height:40px; 
+					background:#f5f5f5; 
+					border-top: 0.01em solid #ccc;
+ 					border-bottom: 0.01em solid #ccc;
+					border-left: 0.01em solid #ccc;
+					line-height:40px;text-align:center;
+					font-size:0.9em;
+					color:#000;}
+.scs_line_innertxt > a {color:#000;}	
+				
+.scs_line_innertxt2 {position:absolute; top:0px; right:230px; 
+					display:inline-block; width:80px; height:40px; 
+					background:#f5f5f5; border-top: 0.01em solid #ccc;
+ 					border-bottom: 0.01em solid #ccc;border-left: 0.01em solid #ccc;
+					line-height:40px; text-align:center;
+					font-size:0.9em; 
+					color:#333;}
+.scs_line_innertxt2 > a {color:#000;}	
+
+.scs_03_wrap {position:relative}
+.scs_line3_benchmark {position:absolute;top:130px;width:50px; left:5px;display:block; color:#57008d;font-weight:bold;font-size:0.9em;}
+*/
+
+
+
+/* 3D벤치마크 검색 텍스트*/
+.searchwrap_title3 {position:absolute;top:320px; left:20px; }
+.searchwrap_title3 > h3 {color:#57008d;font-size:1.1em;}
+
+
+
+
+
+
+/* 게임및 프레임으로 검색 박스*/
+.scs_04 {position:absolute;top:460px; left:20px;  }
+.scs_line4 {position:relative;}
+/*.scs_line4 input {width: 760px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}*/
+
+.scs_line4_game_total {position:absolute; top:0; left:70px; width:200px; height:40px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+
+.ipunt_gameframe_txt {position:absolute; top:10px; left:280px;display:inline-block; width:100px; }
+
+
+.scs_line4_gameframe {position:absolute; top:0px; left:320px; }
+.scs_line4_gameframe .input_price1 {width:80px;left:400px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+.ipunt_gameframe_txt2 {position:absolute; top:10px; left:100px;display:inline-block; width:100px; }
+
+.scs_line4_gameframe2 {position:absolute; top:0px; left:460px; }
+.scs_line4_gameframe2 .input_price1 {width:80px;left:600px; height:30px; border: 0.01em solid #ccc; background-color: #fff; color: #777; font-size: 1em;}
+
+
+
+
+.scs_line_btn3 {position:absolute; 
+				top:0; right:0; display:inline-block; 
+				width:150px; height:40px; 
+				background:#57008d; 
+			    line-height:40px; color:#fff; 
+				border:none; }
+.scs_line_btn3:hover {background:#490375;transition:all 0.2s; }			   
+.scs_line_btn3 > a {color:#fff;
+					text-align:center;
+					display:block; 
+					line-height:38px;
+					font-size:1.12em;  }
+
+.scs_line_innertxt {position:absolute; top:0px; right:150px; display:inline-block; width:80px; height:40px; background:#f5f5f5; border-top: 0.01em solid #ccc;
+ 					border-bottom: 0.01em solid #ccc;border-left: 0.01em solid #ccc;line-height:40px; color:#fff; text-align:center;font-size:0.9em; color:#000;}
+
+
+
+
+
+
+
+
+
+
+/* 게임및 프레임으로검색 텍스트*/
+.searchwrap_title4 {position:absolute;top:420px; left:20px; }
+.searchwrap_title4 > h3 {color:#57008d;font-size:1.1em;}
+
+
+
+
+/* 커뮤니티 게시판 영역*/
+#main_subcon {width:100%;  min-width: 1100px;}
+.main_subconwrap {width:1100px;min-width: 1100px;margin:0 auto;height:300px;margin-top:20px; }
+.m_sub_box {width: 275px; float:left;height:300px; 
+			border-top:1px solid #ccc;  
+			border-bottom:1px solid #ccc;
+			border-left:1px solid #ccc;  
+			box-sizing:border-box; }
+.m_sub_box:last-child {border-right:1px solid #ccc;}
+
+.m_sub_box > h2 {width:30px; border:3px solid #9372b6; margin:1em 0.5em;}
+.m_sub_box > h3 {margin:0.7em 0.5em;font-size:1.2em;}
+.m_sub_box > p {margin:1em 0.5em;font-size:0.95em;}
+.m_sub_bgtxt {font-weight:bold; color:#57008d; }
+
+.m_sub_box:nth-child(1) > .m_sub_bg {margin-top:2em; width:245px; height:160px; margin:0 auto;
+									 background:url(../images/m_con1.jpg) no-repeat center;}
+
+.m_sub_box:nth-child(2) > .m_sub_bg {margin-top:2em; width:245px; height:160px; margin:0 auto;
+									 background:url(../images/m_con2.jpg) no-repeat center;}
+
+.m_sub_box:nth-child(3) > .m_sub_bg {margin-top:2em; width:245px; height:160px; margin:0 auto;
+									 background:url(../images/m_con3.jpg) no-repeat center;}
+
+.m_sub_box:nth-child(4) > .m_sub_bg {margin-top:2em; width:245px; height:160px; margin:0 auto;
+									 background:url(../images/m_con4.jpg) no-repeat center;}
+									 
+									 
+									 
+									 
+									 
+			
+/* 커뮤니티 게시판 영역2*/
+#main_subcon2 {width:100%;  min-width: 1100px; height:400px; }	
+.main_subconwrap2 {width:1100px;min-width: 1100px;margin:0 auto;height:370px;margin-top:20px;  }			
+.m_sub_box2_left {width: 550px; float:left;height:300px;
+				  box-sizing:border-box;  }		
+				  
+.m_sub_box2 {width: 275px; float:left;height:375px; 
+			border-top:1px solid #ccc;  
+			border-bottom:1px solid #ccc;
+			border-left:1px solid #ccc;  
+			box-sizing:border-box; }				  
+				  
+.m_sub_box2  > h2 {width:30px; border:3px solid #9372b6; margin:1em 0.5em;}
+.m_sub_box2  > h3 {margin:0.7em 0.5em;font-size:1.2em;}
+.m_sub_box2  > p {margin:1em 0.5em;font-size:0.95em;}
+	
+	
+				  
+.m_sub_box2:nth-child(1) > .m_sub_box2_bg {background:#f5f5f5; width:245px; height:240px; margin:0 auto;}
+			  
+.m_sub_box2_right {width: 550px; float:left;height:375px;
+				  border-top:1px solid #ccc;  
+				  border-bottom:1px solid #ccc;
+				  border-left:1px solid #ccc; 
+				  border-right:1px solid #ccc; 
+				  box-sizing:border-box;  }				  
+			 
+							 
+	
+div .bx-wrapper {box-sizing:border-box;height:375px;box-shadow:none; 
+				 border:none; }
+	
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {position:absolute; bottom:10px; }	
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {position:absolute;bottom:10px; right:0; color:#FFF;   }
+
+.bx-pager-link {background:#908c89 !important;}
+.bx-pager.bx-default-pager a.active {background:#9372b6 !important;}
+							 
+
+
+
+
+
+
+
+
+
+.num {width: 1100px; min-width: 1100px; margin: 0 auto; text-align: center;}
+.num ul li {display: inline-block; padding: 0.3em;}
+.num ul li a {font-weight: 500; font-size: 0.875em; color: #777;}
+.num ul li a i {vertical-align: text-top;}
+
+.num ul li a:hover {font-weight: 800; color: #0e6a79;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 모바일 css*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) { 
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+    
+	
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}

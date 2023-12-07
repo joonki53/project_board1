@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 서브메뉴1 - 회사소개 */
+.submenu_section1 {margin-bottom:5em; }
+.submenu_section1:after {display:block; clear:both; content:"";}
+
+.submenu_section2 {}
+.submenu_section1:after {display:block; clear:both; content:"";}
+
+.submenu_section3 {margin-top:2em; }
+.submenu_section3:after {display:block; clear:both; content:"";}
+
+.submenu_section4 {margin-top:2em; margin-bottom:5em;}
+.submenu_section4:after {display:block; clear:both; content:"";}
+
+.submenu_section5 {margin-bottom:3em;}
+.submenu_section5:after {display:block; clear:both; content:"";}
+
+/* 회사소개  */
+.submenu_section1 {position:relative;height:250px;background:url(../images/sub_bg2.jpg) no-repeat center;background-size: cover;}
+.sub_topbanner {width:100%;margin: 0 auto; }
+.sub_topbanner > p {text-align: center;font-size:2em;padding-top:3em; color:#fff; }
+
+.sub_tobbanner_box {width:100%;margin: 0 auto;height:50px;margin-top:80px;background:#2F2F2F; }
+.topbox_main_txt {display:inline-block; height:50px;line-height:50px; text-align:center;padding-right:15px; border-right:0.5px solid rgba(255,255,255,0.7);}
+.topbox_main_txt .iconst {padding:0 1em;font-size:1.7em;color:#fff; }
+.topbox_main_txt .iconst:hover {color:rgba(255,255,255,0.5);}
+.sub_menu1_dropdown {display:inline-block;}
+.sub_menu1_dropdown .sub_selectbox1 {margin-left:10px;height:35px; border:none;  background:none;color:#fff; font-size:1em; -webkit-appearance: none; -moz-appearance: none; width: 150px; /* 원하는 너비설정 */  /* 여백으로 높이 설정 */ font-family: inherit; /* 폰트 상속 */ background: url(../images/arrow_bottom.png) no-repeat 95% 50%; /* 네이티브 화살표 대체 */ border-radius: 0px; /* iOS 둥근모서리 제거 */ appearance: none;}
+.sub_selectbox1 option {color:#000; }
+
+/* 회사소개 5개 박스 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox > h3 {text-align:center;font-family: 'Montserrat', sans-serif;}
+.company_subbox > h3 .txtcolor {color:#005b91;font-weight: bold;}
+.company_subbox > .sub_m_txt {text-align:center;padding:1em 0;font-weight:bold; }
+.company_subbox .sub_s_txt {text-align:center;line-height:1.8;}
+.company_subbox2 {margin:4em 0; }
+.company_subbox2 .list-intro {
+    font-size: 0;
+    text-align: center;
+}
+
+.company_subbox2 .list-intro > li {
+	display: inline-block;
+    font-size: 1.0rem;
+    vertical-align: top;
+    text-align: center;
+    width: 18%;}
+
+.company_subbox2 .list-intro > li i {
+    display: inline-block;
+    width: 143px;
+    height: 143px;
+    border-radius: 50%;
+    background: #f7f7f8;
+    margin-bottom: 25px;
+}
+
+.company_subbox2 .list-intro > li:nth-child(1) i {background: #f7f7f8 url(../images/company_logo.png) center no-repeat;}
+
+.company_subbox2 .list-intro > li .iconbox {font-size:3em;padding-top:1em;color:#005b91;}
+
+.company_subbox2 .list-intro > li strong {
+    display: block;
+    font-size: 1.1rem;
+    color:#005b91;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.company_subbox2 .list-intro > li p {
+    color: #555;
+}
+
+
+
+/* 인사말 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox3_lt {width:100%;height:300px;background:url(../images/sub_bg3.jpg) no-repeat center;background-size:cover; border:1px solid #ccc;box-shadow:8px 8px rgba(204,204,204,0.4);  }
+.company_subbox3_rt {width:100%; }
+.company_subbox3_rt > h4 {text-align:center;font-family: 'Montserrat', sans-serif; padding:3em 0 2em 0;  }
+.company_subbox3_rt > p {text-align:center;} 
+
+
+@media (max-width: 768px) {
+
+/* 회사소개 박스 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox > h3 {text-align:center;font-family: 'Montserrat', sans-serif;}
+.company_subbox > h3 .txtcolor {color:#005b91;font-weight: bold;}
+.company_subbox > .sub_m_txt {text-align:center;padding:1em 0;font-weight:bold;font-size:0.95em;  }
+.company_subbox .sub_s_txt {text-align:center;line-height:1.8;font-size:0.9em;}
+
+.company_subbox .web {display:none; }
+.company_subbox2 {margin:4em 0; }
+.company_subbox2 .list-intro {
+    font-size: 0;
+    text-align: center;
+}
+.company_subbox2 .list-intro > li {
+	display: inline-block;
+    font-size: 0.95rem;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+	margin-bottom:30px;}
+.company_subbox2 .list-intro > li i {
+    display: inline-block;
+    width: 143px;
+    height: 143px;
+    border-radius: 50%;
+    background: #f7f7f8;
+    margin-bottom: 25px;
+}
+.company_subbox2 .list-intro > li:nth-child(1) i {background: #f7f7f8 url(../images/company_logo.png) center no-repeat;}
+.company_subbox2 .list-intro > li .iconbox {font-size:3em;padding-top:1em;color:#005b91;}
+.company_subbox2 .list-intro > li strong {
+    display: block;
+    font-size: 1.1rem;
+    color:#005b91;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.company_subbox2 .list-intro > li p {
+    color: #555;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+.company_subbox2 .list-intro > li {
+    width: 33.333%;
+    margin-bottom: 40px;
+
+}
+
+
+@media (min-width: 993px) {
+
+
+}
+
+

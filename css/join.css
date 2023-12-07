@@ -1,0 +1,30 @@
+
+strong, span{
+	color : red;
+}
+table{
+	width : 550px;	
+}
+table,tr,th{
+	border : 2px solid black;
+	border-collapse : collapse;
+}
+caption{
+	text-align : right;
+}	
+
+th{
+	padding : 25px;
+	text-align : right;
+}
+.btn{
+	padding : 15px;
+	float : right;
+}
+#mainbody{	
+	padding: 25px 20px;    
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

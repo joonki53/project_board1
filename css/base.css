@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+* {margin:0px; padding:0px;}
+body {font-family:'Nanum Barun Gothic', sans-serif; margin:0 auto; padding:0; letter-spacing:-0.5px; color:#383838;}
+
+ul, ul li, h1, h2, h3, h4, h5, h6, p {margin-top:0px; margin-bottom:0px;}
+
+hr, legend, caption {display:none;}
+ul li {list-style:none;}
+a {text-decoration:none;}
+
+input {letter-spacing :-0.5px; padding:0.3em;}
+select {letter-spacing :-0.5px; padding:0.3em;}
+textarea {letter-spacing :-0.5px; padding:0.3em;}
+textarea {letter-spacing :-0.5px; padding:0.3em;}
+
+i {vertical-align:middle;}
+img {border:none; vertical-align:bottom;}
+a {text-decoration:none; color:#000;}
+a:hover {text-decoration:none;}
+
+/* font_color */
+.f_blue {color:#005b91;}
+.f_orange {color:#f59835;}
+
+/* font_style */
+.f_bold {font-weight:bold;}
+
+/* 정렬 */
+.txt-left {text-align:left !important;}
+.txt-center {text-align:center !important;}
+.txt-right {text-align:right !important;}
+
+.mg_t40 {margin-top:40px;}
+
+/*
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {padding-right:0px !important; padding-left:0px !important;}
+*/
+
+
+/***************************************************************************** 반응형CSS *****************************************************************************************/
+/* 반응형 아이프레임, 오브젝트, 엠베디드 */
+.embed-container { position:relative; padding-bottom:40%; height:0; overflow:hidden; max-width:100%; }
+.embed-container iframe,.embed-container object,.embed-container embed { position:absolute; top:0; left:0; width:100%; height:100%; }
+
+.img-responsive{max-width:100%; display:block; margin:0 auto;}
+
+.mobile {display:none;}
+
+
+
+@media all and (min-width:1400px) {
+	
+	.container {width:100% !important;}
+	img {width:auto;}
+
+}
+
+
+@media (max-width:1280px) {
+  #wrap {overflow-x:hidden;}
+  .container {width:100%; padding:0 15px;}
+}
+
+
+@media (max-width:768px) {
+
+  img {width:100%;}
+}

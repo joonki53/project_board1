@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 서브메뉴 1-2 공지사항  */
+.submenu1_2_section1 {margin-bottom:5em; }
+.submenu1_2_section1:after {display:block; clear:both; content:"";}
+
+.submenu1_2_section2 {}
+.submenu1_2_section2:after {display:block; clear:both; content:"";}
+
+.submenu1_2_section3 {margin-top:2em; }
+.submenu1_2_section3:after {display:block; clear:both; content:"";}
+
+/* 공지사항  */
+.submenu1_2_section1 {position:relative;height:250px;background:url(../images/sub_bg2.jpg) no-repeat center;background-size: cover;}
+.sub_topbanner {width:100%;margin: 0 auto; }
+.sub_topbanner > p {text-align: center;font-size:2em;padding-top:3em; color:#fff; }
+.sub_tobbanner_box {width:100%;margin: 0 auto;height:50px;margin-top:80px;background:#2F2F2F; }
+.topbox_main_txt {display:inline-block; height:50px;line-height:50px; text-align:center;padding-right:15px; border-right:0.5px solid rgba(255,255,255,0.7);}
+.topbox_main_txt .iconst {padding:0 1em;font-size:1.7em;color:#fff; }
+.topbox_main_txt .iconst:hover {color:rgba(255,255,255,0.5);}
+.sub_menu1_dropdown {display:inline-block;}
+.sub_menu1_dropdown .sub_selectbox1 {margin-left:10px;height:35px; border:none;  background:none;color:#fff; font-size:1em; -webkit-appearance: none; -moz-appearance: none; width: 150px; /* 원하는 너비설정 */  /* 여백으로 높이 설정 */ font-family: inherit; /* 폰트 상속 */ background: url(../images/arrow_bottom.png) no-repeat 95% 50%; /* 네이티브 화살표 대체 */ border-radius: 0px; /* iOS 둥근모서리 제거 */ appearance: none;}
+
+.sub_selectbox1 option {color:#000; }
+
+
+/* 회사소개 박스 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox > h3 {text-align:center;font-family: 'Montserrat', sans-serif;}
+.company_subbox > h3 .txtcolor {color:#005b91;font-weight: bold;}
+.company_subbox > .sub_m_txt {text-align:center;padding:1em 0;font-weight:bold; }
+.company_subbox .sub_s_txt {text-align:center;line-height:1.8;}
+
+/* 공지사항 검색어 찾기  */
+.search_btnbox {width:100%;margin:0 auto; text-align:center;}
+.search_btnbox:after {display:block;content:""; clear:both; }
+.search_btnbox .select_box {width:auto;height:30px;border:1px solid #ccc;box-sizing:border-box; background:#f65f5;font-size:0.9em;text-align:center; }
+.search_btnbox .search_txtbox {width:300px; height:30px; background:none;border:1px solid #ccc;box-shadow:none; box-sizing:border-box;font-size:0.9em; }
+.search_btnbox .search_btn {display:inline-block;width:33px;height:30px;line-height:30px; color:#fff;background:#005b91; }
+.search_btn .iconst_2 {color:#005b91;}
+
+/* 게시판 */
+.sub1_2_info_section {width: 100%;margin: 0 auto; text-align: center;}
+.sub1_2_info_section {width: 100%; margin: 0 auto; /*가운데 정렬*/}
+.sub1_2_info_section > ul > li:first-child {
+		margin-top:30px;
+        text-align: center;
+        font-size:10pt;
+        height:50px;
+        vertical-align:middle;
+        line-height:40px;}
+#sub1_2_ulTable {margin-top:10px;}
+#sub1_2_ulTable > li:first-child > ul > li {
+  background-color:#005b91;
+  font-weight:bold;
+  color:#fff;
+  text-align:center;}
+#sub1_2_ulTable > li > ul {
+  clear:both;
+  padding:0px auto;
+  position:relative;
+  min-width:40px;}
+#sub1_2_ulTable > li > ul > li {
+  float:left;
+  font-size:1.1em;
+  border-bottom:1px solid silver;
+  vertical-align:baseline;}
+#sub1_2_ulTable > li > ul > li:first-child               {width:10%;} /*No 열 크기*/
+#sub1_2_ulTable > li > ul > li:first-child +li           {width:70%;} /*제목 크기*/
+#sub1_2_ulTable > li > ul > li:first-child +li+li        {width:10%;} /*작성일 크기*/
+#sub1_2_ulTable > li > ul > li:first-child +li+li+li     {width:10%;} /*조회수 크기*/
+
+#sub1_2_divPaging {
+  clear:both;
+  padding-top:20px;
+  margin:0 auto;
+  text-align:center;
+  width:140px;
+  height:50px;}
+
+.pagingbox {display:inline-block;margin:0 auto;
+  text-align:center;background:#005b91;color:#FFF; box-sizing:border-box;  }
+#sub1_2_divPaging > div {
+  float:left;
+  margin-top:20px;
+  width: 20px;
+  height:20px; 
+  line-height:20px; 
+  font-size:1em;
+  margin:0 auto;
+  text-align:center;
+  padding:0.1em 0; 
+  display:inline-block;height:20px;}
+#sub1_2_liSearchOption {clear:both;}
+#sub1_2_liSearchOption > div {
+  margin:0 auto;
+  margin-top:20px;
+  width:auto;
+  height:200px;}
+.left {text-align :left;}
+#sub1_2_liSearchOption > input {}
+
+
+/* 글쓰기 버튼 css*/
+.btn_write {display:inline-block;
+  float:right;
+  width:100px;
+  color:#fff;
+  height:40px; 
+  margin-top:20px;
+  text-align:center;
+  line-height:30px;
+  background:#005b91; 
+  border-radius:5px;  }
+
+.btn_write:hover {background:#abb4b9;}
+
+
+/* 게시판_글쓰기 */
+#board_write {border-top:2px solid #005b91; color:#434343; margin-top:30px;}
+#board_write table {width:100%; margin-bottom:20px;}	
+#board_write table tr th {border-right:1px #d7d7d7 solid; border-bottom:1px #d7d7d7 solid; padding:8px 5px; background:#fafafa; color:#676767; text-align:center;}
+#board_write table tr td {border-bottom:1px #dddddd solid; text-align:left; padding:10px;}
+#board_write table tr td textarea {width:100%; border:1px #d7d7d7 solid;}
+
+/* 게시판 버튼 */
+.border_btn {width:100%; text-align:right; padding-top:20px; clear:both;}
+.border_btn2 {width:100%; text-align:center; padding-top:20px; clear:both;}
+.btn {padding:7px 30px; margin-left:10px; margin-bottom:20px;}
+	
+/* 버튼 컬러 */
+.btn.blue {background:#005b91; border-color:#005b91; color:#fff;}
+.btn.blue:hover {background:#fff; color:#005b91;}
+.btn.gray {background:#666; border-color:#666; color:#fff;}
+.btn.gray:hover {background:#fff; color:#666;}
+
+
+/* 인사말 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox3_lt {width:100%;height:300px;background:url(../images/sub_bg3.jpg) no-repeat center;background-size:cover; border:1px solid #ccc;box-shadow:8px 8px rgba(204,204,204,0.4);  }
+.company_subbox3_rt {width:100%; }
+.company_subbox3_rt > h4 {text-align:center;font-family: 'Montserrat', sans-serif; padding:3em 0 2em 0;  }
+.company_subbox3_rt > p {text-align:center;}
+
+@media (max-width: 768px) {
+/* 공지사항 검색어 찾기  */
+.search_btnbox {width:100%;margin:0 auto; text-align:center;}
+.search_btnbox:after {display:block;content:""; clear:both; }
+.search_btnbox .select_box {width:100%;height:30px;border:1px solid #ccc;box-sizing:border-box; background:#f65f5;font-size:0.9em;text-align:center; }
+.search_btnbox .search_txtbox {width:90%; height:30px; background:none;border:1px solid #ccc;box-shadow:none; box-sizing:border-box;font-size:0.9em;float:left;margin-top:5px; }
+.search_btnbox .search_btn {display:inline-block;width:10%;height:30px;line-height:30px; color:#fff;background:#005b91; box-shadow:none; box-sizing:border-box;margin-top:5px;}
+.search_btn .iconst_2 {color:#005b91;}
+
+/* 회사소개 박스 */
+.company_subbox {margin:3em 0 2em 0;}
+.company_subbox > h3 {text-align:center;font-family: 'Montserrat', sans-serif;}
+.company_subbox > h3 .txtcolor {color:#005b91;font-weight: bold;}
+.company_subbox > .sub_m_txt {text-align:center;padding:1em 0;font-weight:bold;font-size:0.95em;  }
+.company_subbox .sub_s_txt {text-align:center;line-height:1.8;font-size:0.9em;}
+#sub1_2_ulTable > li > ul > li {
+	float:left;
+	font-size:0.9em;
+	border-bottom:1px solid silver;
+	vertical-align:baseline;}
+#sub1_2_ulTable > li > ul > li:first-child               {width:10%;} /*No 열 크기*/
+ #sub1_2_ulTable > li > ul > li:first-child +li           {width:75%;} /*제목 크기*/
+ #sub1_2_ulTable > li > ul > li:first-child +li+li        {width:15%;} /*작성일 크기*/
+ #sub1_2_ulTable > li > ul > li:first-child +li+li+li     {width:10%;display:none;} /*조회수 크기*/
+
+	
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+/* 공지사항 검색어 찾기  */
+.search_btnbox {width:100%;margin:0 auto; text-align:center;}
+.search_btnbox:after {display:block;content:""; clear:both; }
+.search_btnbox .select_box {width:auto;height:30px;border:1px solid #ccc;box-sizing:border-box; background:#f65f5;font-size:0.9em;text-align:center; }
+.search_btnbox .search_txtbox {width:300px; height:30px; background:none;border:1px solid #ccc;box-shadow:none; box-sizing:border-box;font-size:0.9em; }
+.search_btnbox .search_btn {display:inline-block;width:33px;height:30px;line-height:30px; color:#fff;background:#005b91; }
+.search_btn .iconst_2 {color:#005b91;}
+
+.company_subbox2 .list-intro > li {
+    width: 33.333%;
+    margin-bottom: 40px;}
+
+
+@media (min-width: 993px) {
+
+}

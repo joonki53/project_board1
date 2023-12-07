@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+#sub_topmenu {width:100%; min-width: 1100px; margin:0 auto;  }
+#sub_topmenu:after {display: block; clear: both; content: ""} 
+.sub_topmenu_wrap {width:100%; margin: 0 auto; min-width:1100px; margin-top:90px;
+				   height:100px; background:url(../images/subtopbg.jpg) no-repeat center;background-size:cover; }
+
+
+.subtopmenu_txt {width:1100px; margin:0 auto;}
+.subtopmenu_txt > h3 {color:#fff;text-align:right;padding-top:0.7em;font-size:1.8em; font-family: 'Montserrat', sans-serif;}
+.subtopmenu_txt > p {text-align:right; padding-top:10px; font-size:1em; color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+/* 게시판영역  */
+#submenu3_1_container1 {width:100%;min-width:1100px; margin:0 auto;}
+#submenu3_1_container1:after {display: block; clear: both; content: ""}
+
+.sub3_1_con1_wrap {width:1100px;min-width:1100px;margin:0 auto;height:1100px;padding-top:3em;}
+.sub3_1_con1_wrap > h2 {padding-top:1em;  font-size:1.5em; text-align:center; } 
+.sub3_1_con1_wrap > p {padding-top:1em;  font-size:1.0em; text-align:center; color:#666;  } 
+
+
+
+/* 글쓰기 버튼 css*/
+.sub3_1_con1_information_wirte_btn {display:inline-block;
+						width:80px;
+						color:#fff;
+						height:30px; 
+						line-height:30px;
+						background:#57008d; 
+						border-radius:5px;  }
+
+.sub3_1_con1_information_wirte_btn:hover {background:#57008d;}
+
+
+
+/* 채용정보  게시판 */
+
+.sub3_1_con1_info_section {width: 100%;
+					margin: 0 auto; 
+					text-align: center;}
+   .sub3_1_con1_info_section{
+        width: 100%;
+        margin: 0 auto; /*가운데 정렬*/
+    }
+
+   .sub3_1_con1_info_section> ul > li:first-child {
+		margin-top:50px;
+        text-align: center;
+        font-size:10pt;
+        height:50px;
+        vertical-align:middle;
+        line-height:40px;
+}
+
+    #sub3_1_con1_ulTable {margin-top:10px;}
+    
+
+    #sub3_1_con1_ulTable > li:first-child > ul > li {
+        background-color:#57008d;
+        font-weight:bold;
+		color:#fff;
+        text-align:center;
+}
+
+     #sub3_1_con1_ulTable > li > ul {
+        clear:both;
+        padding:0px auto;
+        position:relative;
+        min-width:40px;
+}
+     #sub3_1_con1_ulTable > li > ul > li { 
+        float:left;
+        font-size:1.1em;
+        border-bottom:1px solid silver;
+        vertical-align:baseline;
+}    
+
+     #sub3_1_con1_ulTable > li > ul > li:first-child               {width:8%;} /*No 열 크기*/
+     #sub3_1_con1_ulTable > li > ul > li:first-child +li           {width:35%;} /*모집내용 열 크기*/
+ 	 #sub3_1_con1_ulTable > li > ul > li:first-child +li+li        {width:15%;} /*기업명 열 크기*/
+     #sub3_1_con1_ulTable > li > ul > li:first-child +li+li+li     {width:15%;} /*마감일 열 크기*/
+     #sub3_1_con1_ulTable > li > ul > li:first-child +li+li+li+li {width:9%;} /*근무지 열 크기*/
+	 #sub3_1_con1_ulTable > li > ul > li:first-child +li+li+li+li+li {width:8%;} /*근무지 열 크기*/
+	 #sub3_1_con1_ulTable > li > ul > li:first-child +li+li+li+li+li+li {width:10%;} /*근무지 열 크기*/
+	 
+    #sub3_1_con1_divPaging {
+        clear:both; 
+		padding-top:20px;
+        margin:0 auto;
+		text-align:center;  
+        width:150px; 
+        height:50px;
+}
+
+    #sub3_1_con1_divPaging > div {
+        float:left;
+		margin-top:20px;
+        width: 20px;
+        margin:0 auto;
+        text-align:center;
+}
+
+    #sub3_1_con1_liSearchOption {clear:both;}
+    #sub3_1_con1_liSearchOption > div {
+        margin:0 auto; 
+        margin-top:20px; 
+        width:auto;
+        height:200px; 
+
+}
+
+    .left {
+        text-align : left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 사양검색 */
+#submenu1_1_container3 {width:100%; min-width:1100px;
+						margin:0 auto;}
+#submenu1_1_container3 :after {display: block; clear: both; content: ""} 
+.sub1_1_con3_wrap {width:1100px;min-width:1100px;margin:0 auto;height:900px; }
+.sub1_1_con3_wrap > h2 {margin-top:1em;padding-top:0em; font-size:1.2em; } 
+
+
+
+
+/* 사양검색 리스트 */
+
+.sub1_1_con3_list {width:1100px;min-width:1100px;margin:0 auto; }
+.option_txt {border-top:1px solid #ccc; border-bottom:1px solid #ccc; 
+			 font-weight:bold;padding:0.8em 0; background:#f5f5f5; }
+.option_txt .option_sort {font-size:0.5em;padding:0;display:inline-block;margin-left:0.2em;color:#57008d;}
+.list_option {text-align:right; }
+
+.option_txt > li {float:left; font-size:0.9em; }
+.option_txt > li:nth-child(1) {margin-left:160px;}
+.option_txt > li:nth-child(2) {margin-left:300px;}
+.option_txt > li:nth-child(3) {margin-left:50px;}
+.option_txt > li:nth-child(4) {margin-left:20px;}
+.option_txt > li:nth-child(5) {margin-left:30px;}
+.option_txt > li:nth-child(6) {margin-left:40px;}
+.option_txt > li:nth-child(7) {margin-left:40px;}
+
+.option_listbox {width:100%; border-bottom:1px solid #ccc; }
+
+.list_imgbox {width:150px; height:120px;line-height:150px;
+			  background:url(../images/bestmodel_01.jpg) no-repeat center;
+			  background-size:contain;float:left; }
+
+.list_pcinfo {width:300px; height:120px;
+			 margin-left:10px; float:left; vertical-align:middle; }
+.list_pcinfo > h4 {padding:0.8em 0; }			 
+.list_pcinfo > p {font-size:0.85em;  }	
+
+.list_year {width:130px; height:120px; 
+			margin-left:10px; float:left; }
+			 
+			 
+.list_price {width:130px; height:120px;
+			margin-left:10px; float:left; }
+			 			 
+			 
+.list_overk {width:100px; height:120px;
+			margin-left:10px; float:left; }
+			 
+			 
+.list_3dmark {width:100px; height:120px;
+			margin-left:10px; float:left; }
+			 			 			 
+.list_gameframe {width:130px; height:120px;
+			margin-left:10px; float:right; }	
+
+					 
+.option_list_txt {line-height:120px; text-align:center; font-size:0.85em;}			 
+			 
+/* 사양검
+
+색 */
+#submenu1_1_container4 {width:100%;min-width:1100px;margin:0 auto;margin-bottom:3em;}
+#submenu1_1_container4:after {display: block; clear: both; content: ""} 			 
+		 
+			 
+			 
